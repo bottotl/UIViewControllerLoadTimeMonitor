@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07EE73842E683EE2CB29CF84 /* libPods-VCLife.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F642DCCCE45AA52DEA897021 /* libPods-VCLife.a */; };
 		3008499F2016D36000F7ECD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008499E2016D36000F7ECD4 /* AppDelegate.m */; };
 		300849A22016D36000F7ECD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 300849A12016D36000F7ECD4 /* ViewController.m */; };
 		300849A52016D36000F7ECD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300849A32016D36000F7ECD4 /* Main.storyboard */; };
@@ -15,6 +16,15 @@
 		300849AD2016D36000F7ECD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 300849AC2016D36000F7ECD4 /* main.m */; };
 		300849B72016D36000F7ECD4 /* VCLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 300849B62016D36000F7ECD4 /* VCLifeTests.m */; };
 		300849C22016D36000F7ECD4 /* VCLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 300849C12016D36000F7ECD4 /* VCLifeUITests.m */; };
+		300849D12016DAA300F7ECD4 /* JFTVCLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 300849D02016DAA300F7ECD4 /* JFTVCLoadModel.m */; };
+		300849D42016E21800F7ECD4 /* JFTVCLoadCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 300849D32016E21800F7ECD4 /* JFTVCLoadCenter.m */; };
+		300849D72016E36400F7ECD4 /* UIView+JFTVCLife.m in Sources */ = {isa = PBXBuildFile; fileRef = 300849D62016E36400F7ECD4 /* UIView+JFTVCLife.m */; };
+		300849DE20172A0500F7ECD4 /* JFTAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 300849DD20172A0500F7ECD4 /* JFTAView.m */; };
+		300849E120172A0F00F7ECD4 /* JFTBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 300849E020172A0F00F7ECD4 /* JFTBView.m */; };
+		300849E420172A1A00F7ECD4 /* JFTCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 300849E320172A1A00F7ECD4 /* JFTCView.m */; };
+		300849E72017435900F7ECD4 /* UIViewController+JFTLife.m in Sources */ = {isa = PBXBuildFile; fileRef = 300849E62017435900F7ECD4 /* UIViewController+JFTLife.m */; };
+		CD95D44DB44805B7DB9F7124 /* libPods-VCLifeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 052BA0F028E2553524770E77 /* libPods-VCLifeUITests.a */; };
+		D894DD1EAB744DA5EFD9839B /* libPods-VCLifeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 780B2DA5FE2F8BD0AAC15DCF /* libPods-VCLifeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		052BA0F028E2553524770E77 /* libPods-VCLifeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VCLifeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		068A5DC08BD86B9275537A39 /* Pods-VCLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCLife.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VCLife/Pods-VCLife.debug.xcconfig"; sourceTree = "<group>"; };
 		3008499A2016D36000F7ECD4 /* VCLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VCLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3008499D2016D36000F7ECD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3008499E2016D36000F7ECD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +63,27 @@
 		300849BD2016D36000F7ECD4 /* VCLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VCLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		300849C12016D36000F7ECD4 /* VCLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCLifeUITests.m; sourceTree = "<group>"; };
 		300849C32016D36000F7ECD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		300849CF2016DAA300F7ECD4 /* JFTVCLoadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTVCLoadModel.h; sourceTree = "<group>"; };
+		300849D02016DAA300F7ECD4 /* JFTVCLoadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTVCLoadModel.m; sourceTree = "<group>"; };
+		300849D22016E21800F7ECD4 /* JFTVCLoadCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTVCLoadCenter.h; sourceTree = "<group>"; };
+		300849D32016E21800F7ECD4 /* JFTVCLoadCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTVCLoadCenter.m; sourceTree = "<group>"; };
+		300849D52016E36400F7ECD4 /* UIView+JFTVCLife.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JFTVCLife.h"; sourceTree = "<group>"; };
+		300849D62016E36400F7ECD4 /* UIView+JFTVCLife.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JFTVCLife.m"; sourceTree = "<group>"; };
+		300849DC20172A0500F7ECD4 /* JFTAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTAView.h; sourceTree = "<group>"; };
+		300849DD20172A0500F7ECD4 /* JFTAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTAView.m; sourceTree = "<group>"; };
+		300849DF20172A0F00F7ECD4 /* JFTBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTBView.h; sourceTree = "<group>"; };
+		300849E020172A0F00F7ECD4 /* JFTBView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTBView.m; sourceTree = "<group>"; };
+		300849E220172A1A00F7ECD4 /* JFTCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFTCView.h; sourceTree = "<group>"; };
+		300849E320172A1A00F7ECD4 /* JFTCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFTCView.m; sourceTree = "<group>"; };
+		300849E52017435900F7ECD4 /* UIViewController+JFTLife.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JFTLife.h"; sourceTree = "<group>"; };
+		300849E62017435900F7ECD4 /* UIViewController+JFTLife.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JFTLife.m"; sourceTree = "<group>"; };
+		3EC9485692D64DFC941F1E00 /* Pods-VCLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCLife.release.xcconfig"; path = "Pods/Target Support Files/Pods-VCLife/Pods-VCLife.release.xcconfig"; sourceTree = "<group>"; };
+		74BF96CBFE5AF21CBF737146 /* Pods-VCLifeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCLifeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VCLifeTests/Pods-VCLifeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		780B2DA5FE2F8BD0AAC15DCF /* libPods-VCLifeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VCLifeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8827F37C35791361FF2707F4 /* Pods-VCLifeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCLifeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VCLifeTests/Pods-VCLifeTests.release.xcconfig"; sourceTree = "<group>"; };
+		995A3756D3DB9686DB1D8CFF /* Pods-VCLifeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCLifeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VCLifeUITests/Pods-VCLifeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A531486DB368D135269DE686 /* Pods-VCLifeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VCLifeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VCLifeUITests/Pods-VCLifeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F642DCCCE45AA52DEA897021 /* libPods-VCLife.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VCLife.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07EE73842E683EE2CB29CF84 /* libPods-VCLife.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D894DD1EAB744DA5EFD9839B /* libPods-VCLifeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD95D44DB44805B7DB9F7124 /* libPods-VCLifeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,8 @@
 				300849B52016D36000F7ECD4 /* VCLifeTests */,
 				300849C02016D36000F7ECD4 /* VCLifeUITests */,
 				3008499B2016D36000F7ECD4 /* Products */,
+				712BDDDC39EF8A62B6B20DBB /* Pods */,
+				3167CA41C36F5A17DB8B27E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +139,7 @@
 		3008499C2016D36000F7ECD4 /* VCLife */ = {
 			isa = PBXGroup;
 			children = (
+				300849DB20172A0500F7ECD4 /* View */,
 				3008499D2016D36000F7ECD4 /* AppDelegate.h */,
 				3008499E2016D36000F7ECD4 /* AppDelegate.m */,
 				300849A02016D36000F7ECD4 /* ViewController.h */,
@@ -110,6 +149,14 @@
 				300849A82016D36000F7ECD4 /* LaunchScreen.storyboard */,
 				300849AB2016D36000F7ECD4 /* Info.plist */,
 				300849AC2016D36000F7ECD4 /* main.m */,
+				300849CF2016DAA300F7ECD4 /* JFTVCLoadModel.h */,
+				300849D02016DAA300F7ECD4 /* JFTVCLoadModel.m */,
+				300849D22016E21800F7ECD4 /* JFTVCLoadCenter.h */,
+				300849D32016E21800F7ECD4 /* JFTVCLoadCenter.m */,
+				300849D52016E36400F7ECD4 /* UIView+JFTVCLife.h */,
+				300849D62016E36400F7ECD4 /* UIView+JFTVCLife.m */,
+				300849E52017435900F7ECD4 /* UIViewController+JFTLife.h */,
+				300849E62017435900F7ECD4 /* UIViewController+JFTLife.m */,
 			);
 			path = VCLife;
 			sourceTree = "<group>";
@@ -132,6 +179,42 @@
 			path = VCLifeUITests;
 			sourceTree = "<group>";
 		};
+		300849DB20172A0500F7ECD4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				300849DC20172A0500F7ECD4 /* JFTAView.h */,
+				300849DD20172A0500F7ECD4 /* JFTAView.m */,
+				300849DF20172A0F00F7ECD4 /* JFTBView.h */,
+				300849E020172A0F00F7ECD4 /* JFTBView.m */,
+				300849E220172A1A00F7ECD4 /* JFTCView.h */,
+				300849E320172A1A00F7ECD4 /* JFTCView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3167CA41C36F5A17DB8B27E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F642DCCCE45AA52DEA897021 /* libPods-VCLife.a */,
+				780B2DA5FE2F8BD0AAC15DCF /* libPods-VCLifeTests.a */,
+				052BA0F028E2553524770E77 /* libPods-VCLifeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		712BDDDC39EF8A62B6B20DBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				068A5DC08BD86B9275537A39 /* Pods-VCLife.debug.xcconfig */,
+				3EC9485692D64DFC941F1E00 /* Pods-VCLife.release.xcconfig */,
+				74BF96CBFE5AF21CBF737146 /* Pods-VCLifeTests.debug.xcconfig */,
+				8827F37C35791361FF2707F4 /* Pods-VCLifeTests.release.xcconfig */,
+				995A3756D3DB9686DB1D8CFF /* Pods-VCLifeUITests.debug.xcconfig */,
+				A531486DB368D135269DE686 /* Pods-VCLifeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 300849C62016D36000F7ECD4 /* Build configuration list for PBXNativeTarget "VCLife" */;
 			buildPhases = (
+				652B000C083D611DB807D54F /* [CP] Check Pods Manifest.lock */,
 				300849962016D36000F7ECD4 /* Sources */,
 				300849972016D36000F7ECD4 /* Frameworks */,
 				300849982016D36000F7ECD4 /* Resources */,
+				14129A64044BF9D08082A7F0 /* [CP] Embed Pods Frameworks */,
+				F0BFFC55B1ED5B9B2FDC1559 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 300849C92016D36000F7ECD4 /* Build configuration list for PBXNativeTarget "VCLifeTests" */;
 			buildPhases = (
+				A5E93C0221D960F520C06F77 /* [CP] Check Pods Manifest.lock */,
 				300849AE2016D36000F7ECD4 /* Sources */,
 				300849AF2016D36000F7ECD4 /* Frameworks */,
 				300849B02016D36000F7ECD4 /* Resources */,
+				5A37CF1DB91F27FC6954BFAB /* [CP] Embed Pods Frameworks */,
+				CE6F0192150AC0EA681A6C09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 300849CC2016D36000F7ECD4 /* Build configuration list for PBXNativeTarget "VCLifeUITests" */;
 			buildPhases = (
+				65EABCCB95C96DDC4F17CE1C /* [CP] Check Pods Manifest.lock */,
 				300849B92016D36000F7ECD4 /* Sources */,
 				300849BA2016D36000F7ECD4 /* Frameworks */,
 				300849BB2016D36000F7ECD4 /* Resources */,
+				8223DEA7C359AA21AC5DFE67 /* [CP] Embed Pods Frameworks */,
+				57D5E005F51ACDB078EDE49A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +352,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14129A64044BF9D08082A7F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCLife/Pods-VCLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57D5E005F51ACDB078EDE49A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCLifeUITests/Pods-VCLifeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A37CF1DB91F27FC6954BFAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCLifeTests/Pods-VCLifeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		652B000C083D611DB807D54F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VCLife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65EABCCB95C96DDC4F17CE1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VCLifeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8223DEA7C359AA21AC5DFE67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCLifeUITests/Pods-VCLifeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E93C0221D960F520C06F77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VCLifeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE6F0192150AC0EA681A6C09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCLifeTests/Pods-VCLifeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0BFFC55B1ED5B9B2FDC1559 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VCLife/Pods-VCLife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		300849962016D36000F7ECD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				300849A22016D36000F7ECD4 /* ViewController.m in Sources */,
+				300849D12016DAA300F7ECD4 /* JFTVCLoadModel.m in Sources */,
+				300849D72016E36400F7ECD4 /* UIView+JFTVCLife.m in Sources */,
 				300849AD2016D36000F7ECD4 /* main.m in Sources */,
 				3008499F2016D36000F7ECD4 /* AppDelegate.m in Sources */,
+				300849E72017435900F7ECD4 /* UIViewController+JFTLife.m in Sources */,
+				300849E420172A1A00F7ECD4 /* JFTCView.m in Sources */,
+				300849DE20172A0500F7ECD4 /* JFTAView.m in Sources */,
+				300849E120172A0F00F7ECD4 /* JFTBView.m in Sources */,
+				300849D42016E21800F7ECD4 /* JFTVCLoadCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +674,7 @@
 		};
 		300849C72016D36000F7ECD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068A5DC08BD86B9275537A39 /* Pods-VCLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +688,7 @@
 		};
 		300849C82016D36000F7ECD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC9485692D64DFC941F1E00 /* Pods-VCLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +702,7 @@
 		};
 		300849CA2016D36000F7ECD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BF96CBFE5AF21CBF737146 /* Pods-VCLifeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +717,7 @@
 		};
 		300849CB2016D36000F7ECD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8827F37C35791361FF2707F4 /* Pods-VCLifeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +732,7 @@
 		};
 		300849CD2016D36000F7ECD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995A3756D3DB9686DB1D8CFF /* Pods-VCLifeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VCLifeUITests/Info.plist;
@@ -495,6 +746,7 @@
 		};
 		300849CE2016D36000F7ECD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A531486DB368D135269DE686 /* Pods-VCLifeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VCLifeUITests/Info.plist;

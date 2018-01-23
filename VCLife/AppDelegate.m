@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "JRSwizzle.h"
+#import "UIView+JFTVCLife.h"
+#import "UIViewController+JFTLife.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +17,12 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [UIViewController jr_swizzleMethod:@selector(setView:) withMethod:@selector(jft_setView:) error:nil];
+    [UIViewController jr_swizzleMethod:@selector(viewWillLayoutSubviews) withMethod:@selector(jft_viewWillLayoutSubviews) error:nil];
+    [UIViewController jr_swizzleMethod:@selector(viewDidLayoutSubviews) withMethod:@selector(jft_viewDidLayoutSubviews) error:nil];
+    [UIView jr_swizzleMethod:@selector(layoutSublayersOfLayer:) withMethod:@selector(jft_layoutSublayersOfLayer:) error:nil];
     return YES;
 }
 

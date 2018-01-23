@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JFTAView.h
 //  VCLife
 //
 //  Created by syfll on 2018/1/23.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JFTBView.h"
 
-@interface ViewController : UITableViewController
-
-
+@interface JFTAView : UIView
+@property (nonatomic, strong) JFTBView *view;
 @end
-
